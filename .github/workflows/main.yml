@@ -1,4 +1,4 @@
-name: gradle
+name: DHR
 
 on:
   push:
