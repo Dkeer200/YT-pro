@@ -1,24 +1,4 @@
-/*****YTPRO*******
-Author: Prateek Chaubey
-Version: 3.4.58
-URI: https://github.com/prateek-chaubey/
-*/
 
-
-//DEBUG
-/*var debug=false;
-var Android={
-pipvid:()=>{},
-gohome:()=>{},
-getInfo:()=>{},
-oplink:()=>{},
-downvid:()=>{}
-};
-if(window.eruda == null){
-//ERUDA
-window.location.href=`javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();`;
-}
-/**/
 
 
 /*Few Stupid Inits*/
