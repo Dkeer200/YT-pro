@@ -22,7 +22,7 @@ jobs:
     - name: Build
       run: cmd.exe /c gradlew.bat assembleRelease
     - name: Sign
-      run: cmd.exe /c java.exe -jar "signer\ApkSigner.jar" sign --key "signer\apkeasytool.pk8" --cert "signer\apkeasytool.pem"  --v5-signing-enabled false --out "%cd%/app/build/outputs/apk/release/youtube_pro_signed.apk" "%cd%/app/build/outputs/apk/release/app-release-unsigned.apk"
+      run: cmd.exe /c java.exe -jar "signer\ApkSigner.jar" sign --key "signer\apkeasytool.pk8" --cert "signer\apkeasytool.pem"  --v4-signing-enabled false --out "%cd%/app/build/outputs/apk/release/youtube_pro_signed.apk" "%cd%/app/build/outputs/apk/release/app-release-unsigned.apk"
       
     - name: Upload
       uses: actions/upload-artifact@v3
